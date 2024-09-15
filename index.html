@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellen's Birthday Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-content" class="hidden">
+        <div id="celebration">
+            <h1>Happy 18th Birthday, Hellen!</h1>
+            <div id="surprise-box">
+                <div class="balloon-container">
+                    <div class="balloon" id="balloon1"></div>
+                    <div class="balloon" id="balloon2"></div>
+                    <div class="balloon" id="balloon3"></div>
+                </div>
+                <img src="https://media.tenor.com/B5eeR2muZK0AAAAj/travis-band.gif" alt="Surprise" class="surprise-image">
+            </div>
+            <div id="confetti"></div>
+            <div class="chat-icon" id="chat-icon">🐾</div>
+            <div id="message-content">
+                <p>Hellen, you are truly amazing. Over the years, you have shown incredible strength and perseverance in managing all the challenges that life has thrown your way. Despite everything, you’ve never let your problems keep you down. You continue to shine in everything you do, whether it's your beautiful drawings or the various competitions you participate in.</p>
+                <p>Your dedication to your passions is inspiring. It's clear that you have put in so much effort, and it has paid off. You’ve become an incredible person, and your achievements speak volumes about your character and resilience. Your mother must be so proud of you, as are all of us who have had the privilege of witnessing your journey.</p>
+                <p>On this special day, we celebrate not just your birthday but also all the wonderful things you’ve accomplished. Here’s to many more years of happiness, creativity, and success. Happy Birthday, Hellen!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="name-input">
+        <h2>Enter your first name:</h2>
+        <input type="text" id="name" placeholder="Your first name" oninput="toggleSubmit()" onkeypress="checkEnter(event)">
+        <button id="submit-btn" onclick="checkName()" disabled>Submit</button>
+        <p id="message"></p>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>
