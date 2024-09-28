@@ -7,16 +7,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Define an array of possible cat responses
     const catResponses = [
         "Meow Meow 🎂",
-        "Meow meow",
-        "Purr",
-        "Hiss",
+        "Meow meow🎂",
+        "Purr🎂",
+        "Hiss🎂",
         "*Yawn*",
         "*Stretch*",
-        "Mew",
-        "Purr meow",
-        "Hiss meow",
-        "Meow? Meow!",
-        "Meow.... meow meow?, mew... mew, Mewo... me- Hiss..."
+        "Mew🎂",
+        "Purr meow🎂",
+        "Hiss meow🎂",
+        "Meow? Meow!🎂",
+        "Meow.... meow meow?, mew... mew, Mewo... me- Hiss...🎂"
     ];
 
     // Load chat history when the page loads
